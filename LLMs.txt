@@ -1,0 +1,72 @@
+# Pico AI Homelab - LLMs.txt
+# https://picoai.com
+# Version: 1.0.0
+
+# ABOUT
+Pico AI Homelab is a local LAN AI server for home and office use, designed for professionals and small teams who value privacy and performance. The server runs on Apple Silicon devices and is powered by MLX technology.
+
+# MODELS
+- DeepSeek R1 Distilled
+- Llama
+- Gemma
+- 300+ additional state-of-the-art AI models
+
+# CAPABILITIES
+- Local LLM inference
+- RAG (Retrieval-Augmented Generation)
+- Chat API
+- Embeddings API
+- Models API
+- Bonjour service discovery
+
+# TECHNICAL REQUIREMENTS
+- Apple Silicon device (M1/M2/M3)
+- macOS
+- Local network connection
+
+# CONTEXT WINDOW
+Varies by model. Please refer to individual model documentation.
+
+# TRAINING DATA
+Pre-trained models, no additional training required.
+
+# INTENDED USE
+- Professional and enterprise use
+- Small team collaboration
+- Privacy-focused applications
+- Local AI development
+- Homelab setups
+
+# ETHICAL CONSIDERATIONS
+- Promotes data privacy by keeping all processing local
+- Reduces cloud dependency
+- Environmentally conscious through efficient MLX optimization
+- No data collection or sharing
+
+# LIMITATIONS
+- Requires Apple Silicon hardware
+- Performance varies by device capabilities
+- Model availability subject to licensing terms
+
+# BIAS AND RISKS
+- Model-specific biases may apply
+- Users should evaluate individual models for their specific use cases
+- Local deployment reduces exposure to external manipulation
+
+# DEVELOPER RESOURCES
+Documentation: https://pico-1.gitbook.io/homelab
+Discord: https://discord.gg/Nrf5y8Uaxw
+
+# LICENSE
+Please refer to individual model licenses for usage terms.
+
+# CONTACT
+Twitter: @PicoAIHomelab
+Support: Available through Discord community
+
+# CITATIONS
+For research and academic citations, please contact the Pico AI team.
+
+# UPDATES
+This LLMs.txt is maintained alongside the Pico AI Homelab documentation.
+Last updated: 2025-02-15
