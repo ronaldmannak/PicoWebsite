@@ -1,1 +1,5 @@
-title: Pico AI Server\nbaseurl: \"\"\nurl: \"\"\npermalink: /blog/:title/\nmarkdown: kramdown\ncollections:\n  posts:\n    output: true\n    permalink: /blog/:title/
+title: Pico AI Server
+baseurl: ""
+url: ""
+permalink: /blog/:title/
+markdown: kramdown
