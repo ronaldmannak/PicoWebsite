@@ -58,7 +58,7 @@ Pre-trained models, no additional training required.
 # LATEST BLOG POST
 Title: Demystifying LLMs for Swift Developers: Part 1
 Date: 2025-06-21
-URL: /blog/2025-06-21-sample-post/
+URL: /blog/demystifying-llms-for-swift-developers-part-1/
 Summary: 
   This article introduces large language models (LLMs) to Swift developers, focusing on simplifying concepts often made complex by data science jargon. It breaks down the three essential files required for running an LLM and explains their roles in an accessible way.
 

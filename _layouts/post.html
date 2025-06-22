@@ -1,1 +1,32 @@
----\n---\n{% raw %}\n{% assign post_images = page.dir | append: '/' %}\n{% endraw %}\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>{{ page.title }} | Pico AI Blog</title>\n  <meta name=\"description\" content=\"{{ page.excerpt | strip_html | strip_newlines }}\">\n  <link rel=\"icon\" type=\"image/png\" href=\"/icon.png\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap\" rel=\"stylesheet\">\n</head>\n<body class=\"bg-white font-sans\" style=\"font-family: 'Inter', sans-serif;\">\n  <nav class=\"bg-gray-800 text-white py-4\">\n    <div class=\"container mx-auto px-4\">\n      <div class=\"flex justify-end gap-8\">\n        <a href=\"/\" class=\"hover:text-gray-300 transition-colors\">Home</a>\n        <a href=\"/blog/\" class=\"hover:text-gray-300 transition-colors font-bold\">Blog</a>\n      </div>\n    </div>\n  </nav>\n  <div class=\"container mx-auto px-4 py-16 max-w-3xl\">\n    <h1 class=\"text-4xl font-extrabold mb-4\">{{ page.title }}</h1>\n    <p class=\"text-gray-500 mb-8\">{{ page.date | date: \"%B %d, %Y\" }}</p>\n    <div class=\"prose prose-lg max-w-none\">{{ content }}</div>\n  </div>\n</body>\n</html>\n
+---
+---
+{% raw %}
+{% assign post_images = page.dir | append: '/' %}
+{% endraw %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Pico AI Blog</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines }}">
+  <link rel="icon" type="image/png" href="/icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white font-sans" style="font-family: 'Inter', sans-serif;">
+  <nav class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-end gap-8">
+        <a href="/" class="hover:text-gray-300 transition-colors">Home</a>
+        <a href="/blog/" class="hover:text-gray-300 transition-colors font-bold">Blog</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container mx-auto px-4 py-16 max-w-3xl">
+    <h1 class="text-4xl font-extrabold mb-4">{{ page.title }}</h1>
+    <p class="text-gray-500 mb-8">{{ page.date | date: "%B %d, %Y" }}</p>
+    <div class="prose prose-lg max-w-none">{{ content }}</div>
+  </div>
+</body>
+</html>
