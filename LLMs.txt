@@ -1,9 +1,20 @@
 # Pico AI Homelab - LLMs.txt
 # https://picoai.com
-# Version: 1.0.0
+# Version: 1.1.0
 
 # ABOUT
 Pico AI Homelab is a local LAN AI server for home and office use, designed for professionals and small teams who value privacy and performance. The server runs on Apple Silicon devices and is powered by MLX technology.
+
+# HOMEPAGE HIGHLIGHTS
+- Download for Free on the Mac App Store
+- 300+ state-of-the-art AI models: DeepSeek R1, Meta Llama, Gemma, Qwen, and more
+- Optimized for Apple Silicon (M1/M2/M3), powered by MLX
+- Total privacy: Everything runs locally, nothing leaves your device
+- One-click setup with advanced customization
+- Seamless integration with chat apps (Open WebUI, Ollamac, MindMac)
+- Bonjour service discovery for Swift apps (no API keys, no setup)
+- Requirements: Apple Silicon (M1 or later), 16GB RAM (32GB recommended)
+- Community: Join our Discord for support and updates
 
 # MODELS
 - DeepSeek R1 Distilled
@@ -23,6 +34,7 @@ Pico AI Homelab is a local LAN AI server for home and office use, designed for p
 - Apple Silicon device (M1/M2/M3)
 - macOS
 - Local network connection
+- 16GB of memory (32GB recommended)
 
 # CONTEXT WINDOW
 Varies by model. Please refer to individual model documentation.
@@ -36,6 +48,30 @@ Pre-trained models, no additional training required.
 - Privacy-focused applications
 - Local AI development
 - Homelab setups
+
+# KEY BENEFITS
+- Privacy: All data and models run locally—nothing leaves your device
+- Speed: Optimized for Apple Silicon, powered by MLX
+- Simplicity: One-click setup, advanced options for power users
+- Integration: Works with top chat apps and Swift via Bonjour
+
+# LATEST BLOG POST
+Title: Demystifying LLMs for Swift Developers: Part 1
+Date: 2025-06-21
+URL: /blog/2025-06-21-sample-post/
+Summary: 
+  This article introduces large language models (LLMs) to Swift developers, focusing on simplifying concepts often made complex by data science jargon. It breaks down the three essential files required for running an LLM and explains their roles in an accessible way.
+
+Main Points:
+- Many LLM resources are tailored for data science or Python, not Swift developers.
+- The article avoids deep dives into transformer internals and instead explains what happens before and after.
+- If you're exploring Apple's MLX or are curious about LLMs, this post is for you.
+- The three essential files of an LLM:
+  1. The Inference Engine: Runs the model (e.g., Karpathy's llama2.c)
+  2. The Tokenizer: Defines how text is split into tokens (e.g., tokenizer.json)
+  3. The Model Weights: Contains the trained parameters (embeddings and weights)
+- These files are static and read-only; the LLM does not learn new information after training.
+- Understanding these files is key to grasping how LLMs work during inference.
 
 # ETHICAL CONSIDERATIONS
 - Promotes data privacy by keeping all processing local
