@@ -10,7 +10,7 @@ During my presentation at the [One More Thing Conference Cupertino 2025](https:/
 If you're a Swift developer exploring Apple's open-source AI framework, MLX, or just curious about how LLMs function, you're in the right place.
 
 ### The Three Essential Files of an LLM
-![Finder screenshot of inference engine source, tokenizer, and model weights ](/files.png)
+![Finder screenshot of inference engine source, tokenizer, and model weights](files.png)
 
 Before diving into the details of large language models (LLMs), it's useful to first understand their basic components. By examining each part separately, you'll gain a clearer picture of how they work together. Plus, if you're interested in experimenting yourself, you'll need to know where to find and use these files.
 An LLM typically consists of three core files:
