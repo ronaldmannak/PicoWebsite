@@ -1,0 +1,36 @@
+# Pico AI Website - Cursor Rules
+
+## Blog Post Management
+When adding a new blog post, always remember to:
+
+1. **Update the homepage** (`index.html`):
+   - Find the "Latest Blog Post" section (around line 35-40)
+   - Update the blog post title in the h3 element
+   - Update the "Read Now" button href to point to the new post URL
+   - Follow the pattern: `/blog/[post-title-slug]/`
+
+2. **Update LLMs.txt documentation**:
+   - Find the "LATEST BLOG POST" section (around line 58-65)
+   - Update Title, Date, URL, and Summary fields
+   - Update the Main Points section with key takeaways
+
+3. **Directory naming**:
+   - Use descriptive, slugified names that match the post title
+   - Example: `demystifying-llms-for-swift-developers-part-1`
+   - Avoid dates in directory names unless necessary
+
+## File Structure
+- Blog posts go in `_posts/[post-title-slug]/index.md`
+- Layouts are in `_layouts/`
+- Blog index is at `blog/index.html`
+- Homepage is `index.html`
+
+## Jekyll Configuration
+- Permalink structure: `/blog/:title/`
+- Use kramdown for markdown processing
+- Posts use the `post` layout
+
+## Code Style
+- Use proper HTML escaping in Jekyll templates
+- Avoid escaped quotes (`\"`) in HTML files
+- Keep front matter clean and properly formatted 

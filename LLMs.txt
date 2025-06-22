@@ -56,6 +56,7 @@ Pre-trained models, no additional training required.
 - Integration: Works with top chat apps and Swift via Bonjour
 
 # LATEST BLOG POST
+# TODO: When adding a new blog post, update the section below
 Title: Demystifying LLMs for Swift Developers: Part 1
 Date: 2025-06-21
 URL: /blog/demystifying-llms-for-swift-developers-part-1/
