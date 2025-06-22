@@ -14,7 +14,13 @@ When adding a new blog post, always remember to:
    - Update Title, Date, URL, and Summary fields
    - Update the Main Points section with key takeaways
 
-3. **Directory naming**:
+3. **Update the blog post excerpt**:
+   - Replace the default excerpt with a descriptive summary of the post content
+   - Target the intended audience (e.g., "Swift developers", "MLX users")
+   - Keep it concise but informative (1-2 sentences)
+   - Example: "A Swift developer's guide to understanding LLMs through their three core components: the inference engine, tokenizer, and model weights. Perfect for those exploring Apple's MLX framework."
+
+4. **Directory naming**:
    - Use descriptive, slugified names that match the post title
    - Example: `demystifying-llms-for-swift-developers-part-1`
    - Avoid dates in directory names unless necessary
