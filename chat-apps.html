@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compatible Chat Apps - Pico AI Server</title>
+    <meta name="description" content="Discover chat apps that work seamlessly with Pico AI Server. From Apollo AI to Open WebUI, find the perfect client for your local AI setup.">
+    <meta name="keywords" content="chat apps, AI clients, Apollo AI, Open WebUI, Bolt AI, IntelliBar, Msty, Local Chat, Ollamac, MindMac, Enchanted, Kerlig, LibreChat, Hollama, Ollama-SwiftUI, Witsy, Reactor AI, OpenAI compatible, Ollama compatible">
+    <meta property="og:title" content="Compatible Chat Apps - Pico AI Server">
+    <meta property="og:description" content="Discover chat apps that work seamlessly with Pico AI Server. From Apollo AI to Open WebUI, find the perfect client for your local AI setup.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white font-sans" style="font-family: 'Inter', sans-serif;">
+    <!-- Top Navigation Bar -->
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="flex gap-8">
+                    <a href="/" class="hover:text-gray-300 transition-colors">Home</a>
+                    <a href="/blog/" class="hover:text-gray-300 transition-colors">Blog</a>
+                    <a href="https://pico-1.gitbook.io/homelab" target="_blank" class="hover:text-gray-300 transition-colors">Developers</a>
+                    <a href="https://apps.apple.com/us/app/pico-ai-homelab-powered-by-mlx/id6738607769?mt=12" target="_blank" class="hover:text-gray-300 transition-colors">Download for Free</a>
+                </div>
+                <div class="flex items-center gap-8 border-l border-gray-700 pl-6 text-xs">
+                    <a href="https://discord.gg/Nrf5y8Uaxw" target="_blank" aria-label="Discord" class="flex items-center gap-2 hover:text-gray-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.182 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                        <span>Discord</span>
+                    </a>
+                    <a href="https://github.com/picomlx" target="_blank" aria-label="GitHub" class="flex items-center gap-2 hover:text-gray-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.186 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .268.18.58.688.482C19.138 20.203 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://x.com/picogpt" target="_blank" aria-label="X.com" class="flex items-center gap-2 hover:text-gray-300">
+                      <svg class="w-6 h-6" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect width="120" height="120" fill="black"/>
+                        <path d="M89.6 30H102L72.8 62.1L106 110H81.9L60.2 80.2L35.7 110H23.2L54.2 75.8L22 30H46.7L66.2 57.1L89.6 30ZM85.2 102.1H92.7L42.2 37.2H34.2L85.2 102.1Z" fill="white"/>
+                      </svg>
+                      <span>X.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-br from-blue-900 via-black to-gray-900 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-6">Compatible Chat Apps</h1>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                    Pico AI Server works with any OpenAI and Ollama compatible chat app on macOS, iOS, Windows, Linux, and Android. 
+                    Here are our recommended clients that provide the best experience.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Universal Compatibility Notice -->
+    <div class="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+        <div class="container mx-auto px-4">
+            <div class="flex items-start">
+                <div class="flex-shrink-0">
+                    <svg class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="ml-3">
+                    <h3 class="text-lg font-medium text-blue-800">Universal Compatibility</h3>
+                    <p class="mt-2 text-blue-700">
+                        Pico AI Server is compatible with any chat app that supports OpenAI or Ollama APIs. 
+                        This includes popular clients like ChatGPT, Claude, and many others across all major platforms.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recommended Apps Grid -->
+    <div class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Recommended Chat Apps</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Apollo AI -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/Apollo.png" alt="Apollo AI" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Apollo AI</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Private, local AI chat app with a beautiful interface.</p>
+                    <a href="https://apps.apple.com/us/app/apollo-ai-private-local-ai/id6448019325" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- Open WebUI -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/openwebui2.png" alt="Open WebUI" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Open WebUI</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Web-based interface for local AI models.</p>
+                    <a href="https://openwebui.com" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- Open WebUI Desktop -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/openAppUI.png" alt="Open WebUI Desktop" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Open WebUI Desktop</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Desktop application for Open WebUI.</p>
+                    <a href="https://github.com/open-webui/desktop" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- Bolt AI -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/bolt.png" alt="Bolt AI" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Bolt AI</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Fast and efficient AI chat interface.</p>
+                    <a href="https://boltai.com?aff=5M0Lk" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- IntelliBar -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/IntelliBar.png" alt="IntelliBar" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">IntelliBar</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">AI-powered search bar for quick access.</p>
+                    <a href="https://intellibar.app" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- Msty -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/msty.png" alt="Msty" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Msty</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Elegant AI chat interface for macOS.</p>
+                    <a href="https://msty.app" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- Local Chat -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/LocalChat.png" alt="Local Chat" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Local Chat</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Private AI chatbot for iOS devices.</p>
+                    <a href="https://apps.apple.com/us/app/local-chat-private-ai-chatbot/id6504043428" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- Ollamac -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/Ollamac.png" alt="Ollamac" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Ollamac</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Native macOS client for Ollama models.</p>
+                    <a href="https://github.com/kevinhermawan/Ollamac/releases" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- MindMac -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/Mindmac.png" alt="MindMac" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">MindMac</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">AI assistant designed for macOS workflows.</p>
+                    <a href="https://mindmac.app" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- Enchanted -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/Enchanted.png" alt="Enchanted" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Enchanted</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Magical AI chat experience for iOS.</p>
+                    <a href="https://apps.apple.com/us/app/enchanted-llm/id6474268307" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- Kerlig -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/Kerlig.png" alt="Kerlig" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Kerlig</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Advanced AI chat platform with powerful features.</p>
+                    <a href="https://www.kerlig.com" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- LibreChat -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/LibreChat.png" alt="LibreChat" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">LibreChat</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Open-source ChatGPT alternative.</p>
+                    <a href="https://www.librechat.ai" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- Hollama -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/Hollama.png" alt="Hollama" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Hollama</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Holographic AI chat interface.</p>
+                    <a href="https://github.com/fmaclen/hollama" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- Ollama-SwiftUI -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/OllamaSwift.png" alt="Ollama-SwiftUI" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Ollama-SwiftUI</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">SwiftUI-based Ollama client for macOS.</p>
+                    <a href="https://github.com/kghandour/Ollama-SwiftUI" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+
+            <!-- Witsy -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/witsy.png" alt="Witsy" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Witsy</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">AI-powered productivity assistant.</p>
+                    <a href="https://witsyai.com" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Visit Site</a>
+                </div>
+            </div>
+
+            <!-- Reactor AI -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/chatapps/reactor.png" alt="Reactor AI" class="w-12 h-12 rounded-lg mr-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Reactor AI</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">Reactive AI chat for macOS.</p>
+                    <a href="https://apps.apple.com/us/app/reactorai/id6739567267?mt=12" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Setup Instructions -->
+    <div class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">How to Connect Your Chat App</h2>
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">1</div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2">Start Pico AI Server</h3>
+                                <p class="text-gray-600">Launch Pico AI Server on your Mac and ensure it's running in the background.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">2</div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2">Configure Your Chat App</h3>
+                                <p class="text-gray-600">In your chat app settings, set the API endpoint to: <code class="bg-gray-100 px-2 py-1 rounded">http://localhost:11434</code></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">3</div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2">Select Your Model</h3>
+                                <p class="text-gray-600">Choose from 300+ available models in Pico AI Server, including DeepSeek R1, Llama, and Gemma.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">4</div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2">Start Chatting</h3>
+                                <p class="text-gray-600">Your chat app will now use Pico AI Server for all AI interactions, keeping everything private and local.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="bg-gradient-to-b from-black to-gray-900 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Ready to Get Started?</h2>
+            <p class="text-xl text-gray-300 mb-8">Download Pico AI Server and connect your favorite chat app today.</p>
+            <div class="flex justify-center gap-4">
+                <a href="https://apps.apple.com/us/app/pico-ai-homelab-powered-by-mlx/id6738607769?mt=12" target="_blank" class="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-100 transition-colors font-semibold">Download Pico AI Server</a>
+                <a href="/" class="border border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-colors font-semibold">Learn More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

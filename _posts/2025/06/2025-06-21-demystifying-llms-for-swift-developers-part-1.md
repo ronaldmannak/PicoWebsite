@@ -13,7 +13,9 @@ If you're a Swift developer exploring Apple's open-source AI framework, MLX, or 
 ![Finder screenshot of inference engine source, tokenizer, and model weights](/assets/images/blog/demystifying-llms-for-swift-developers-part-1/files.png)
 
 Before diving into the details of large language models (LLMs), it's useful to first understand their basic components. By examining each part separately, you'll gain a clearer picture of how they work together. Plus, if you're interested in experimenting yourself, you'll need to know where to find and use these files.
+
 An LLM typically consists of three core files:
+
 1. **The Inference Engine**  
    This executable runs the model. We'll explore this through Andrej Karpathy's [llama2.c](https://github.com/karpathy/llama2.c) project, which is a self-contained C application. Its core source file (`run.c`) is only about 35 kilobytes, highlighting its compactness. While simpler comparisons might mention its ability to fit in a vintage computer's memory, what stands out is how few dependencies it has—using only standard C libraries like stdio and math.
 2. **The Tokenizer**  
@@ -22,6 +24,8 @@ An LLM typically consists of three core files:
    This is the largest file, containing the trained parameters of the model. It includes:
    - **Embeddings**: These act like GPS coordinates of tokens, mapping each token in a high-dimensional space. During training, the model clusters related words together, allowing it to understand context.
    - **Weights**: These matrices are at the core of the model's reasoning and generation capabilities, processing input and generating output.
+
 It's important to note that these files are static and read-only. Once trained, an LLM does not learn new information.
+
 An LLM allows users to access its knowledge, stored in the model's weights, using plain English or other trained languages. Unlike traditional software, you don't need a coding language like SQL.
 Understanding these files provides insight into how an LLM functions during inference. Once you're familiar with them, you're ready to explore how they interconnect. In the following posts, we'll delve deeper into how these components collaborate to power an LLM. 
