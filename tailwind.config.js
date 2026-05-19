@@ -14,6 +14,7 @@ module.exports = {
         subtle: '#6e6e73',
         hairline: '#d2d2d7',
         mist: '#f5f5f7',
+        accent: '#0071e3',
       },
       fontFamily: {
         sans: ['-apple-system', 'BlinkMacSystemFont', 'Inter', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],

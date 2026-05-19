@@ -17,10 +17,10 @@ permalink: /blog/
     {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}" class="group block py-7">
-        <p class="text-[13px] font-medium text-[#0071e3] uppercase tracking-wide mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
-        <h2 class="text-[1.5rem] sm:text-[1.75rem] font-bold tracking-[-0.02em] leading-tight group-hover:text-[#0071e3] transition-colors">{{ post.title }}</h2>
+        <p class="text-[13px] font-medium text-accent uppercase tracking-wide mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
+        <h2 class="text-[1.5rem] sm:text-[1.75rem] font-bold tracking-[-0.02em] leading-tight group-hover:text-accent transition-colors">{{ post.title }}</h2>
         <p class="mt-2 text-[15px] text-subtle leading-relaxed">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-        <span class="mt-3 inline-flex items-center gap-1.5 text-[14px] font-medium text-[#0071e3]">
+        <span class="mt-3 inline-flex items-center gap-1.5 text-[14px] font-medium text-accent">
           Read article
           <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         </span>

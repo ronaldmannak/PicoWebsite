@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffffff">
-  <link rel="icon" type="image/png" href="/icon.png">
-  <link rel="apple-touch-icon" href="/icon.png">
+  <link rel="icon" type="image/png" href="{{ '/icon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/icon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   {% seo %}
 
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-white font-sans text-ink antialiased">
@@ -21,7 +21,7 @@
     <nav class="max-w-6xl mx-auto px-5 sm:px-6">
       <div class="flex items-center justify-between h-14">
         <a href="/" class="flex items-center gap-2.5 shrink-0">
-          <img src="/icon.png" alt="" class="w-7 h-7 rounded-lg" aria-hidden="true">
+          <img src="{{ '/icon.png' | relative_url }}" alt="" class="w-7 h-7 rounded-lg" aria-hidden="true">
           <span class="text-[17px] font-semibold tracking-tight">Pico</span>
         </a>
 
@@ -65,7 +65,7 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
         <div class="col-span-2 md:col-span-1">
           <a href="/" class="flex items-center gap-2.5">
-            <img src="/icon.png" alt="" class="w-8 h-8 rounded-lg" aria-hidden="true">
+            <img src="{{ '/icon.png' | relative_url }}" alt="" class="w-8 h-8 rounded-lg" aria-hidden="true">
             <span class="text-[17px] font-semibold tracking-tight">Pico</span>
           </a>
           <p class="mt-3 text-[13px] text-subtle leading-relaxed max-w-[16rem]">Private, on-device AI apps built for Apple Silicon.</p>
@@ -101,6 +101,17 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    // Close the mobile navigation menu after a link inside it is tapped.
+    (function () {
+      var menu = document.querySelector('header details');
+      if (!menu) return;
+      menu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () { menu.removeAttribute('open'); });
+      });
+    })();
+  </script>
 
 </body>
 </html>
