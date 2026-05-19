@@ -1,5 +1,46 @@
-title: Pico AI Server
+title: Pico
+tagline: Local AI apps for Apple Silicon
+description: >-
+  Pico builds privacy-first AI apps for Apple Silicon: Pico AI Server for local
+  LLMs, Pico Flux for on-device AI image generation, and Pico Studio. Fast,
+  offline, and entirely on your Mac.
+url: https://picogpt.app
 baseurl: ""
-url: ""
+lang: en
 permalink: /blog/:title/
 markdown: kramdown
+
+logo: /icon.png
+
+twitter:
+  username: picogpt
+  card: summary_large_image
+
+social:
+  name: Pico
+  links:
+    - https://x.com/picogpt
+    - https://github.com/picomlx
+    - https://discord.gg/Nrf5y8Uaxw
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /icon.png
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - assets/css/input.css
+  - .cursorrules
+  - README.md

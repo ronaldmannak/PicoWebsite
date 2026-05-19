@@ -3,6 +3,7 @@ layout: post
 title: "Demystifying LLMs for Swift Developers: Part 1"
 date: 2025-06-21
 excerpt: "A Swift developer's guide to understanding LLMs through their three core components: the inference engine, tokenizer, and model weights. Perfect for those exploring Apple's MLX framework."
+image: /assets/images/blog/demystifying-llms-for-swift-developers-part-1/files.png
 ---
 
 When I first delved into large language models (LLMs), I often found the explanations perplexing. Many resources were tailored to those with a background in data science or Python—something I, like many Swift developers, didn't possess. 

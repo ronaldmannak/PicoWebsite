@@ -1,0 +1,6 @@
+# Pico - https://picogpt.app
+# All crawlers, including AI/search crawlers, are welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://picogpt.app/sitemap.xml
