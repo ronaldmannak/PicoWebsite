@@ -18,13 +18,29 @@ Products featured on the home page:
 - `blog/index.html` — blog index
 - `_posts/[year]/[month]/[date]-[slug].md` — blog posts
 - `privacy-policy.html`, `terms-of-use.html` — legal pages (use `layout: page`)
+- `assets/css/input.css` / `main.css` — Tailwind source / compiled output
+- `tailwind.config.js`, `package.json` — CSS build tooling (not deployed)
 - `LLMs.txt` — machine-readable site/product summary
 
 ## Design System
-- Light, Apple-style aesthetic. Tailwind via CDN (typography plugin enabled).
-- Custom colors (see tailwind.config in `_layouts/default.html`):
+- Light, Apple-style aesthetic. Tailwind CSS, compiled to a static stylesheet.
+- Custom colors (see `tailwind.config.js`):
   ink #1d1d1f, subtle #6e6e73, hairline #d2d2d7, mist #f5f5f7. Accent blue #0071e3.
 - System font stack (-apple-system / Inter). Generous spacing, rounded corners.
+
+## CSS Build (IMPORTANT)
+Tailwind is precompiled to `assets/css/main.css` — there is no runtime CDN.
+GitHub Pages does NOT rebuild the CSS, so the compiled file must be committed.
+
+After editing any HTML/markup (new Tailwind classes), regenerate the CSS:
+1. One-time: `npm install`
+2. Build: `npm run build:css`  (or `npm run watch:css` while developing)
+3. Commit the updated `assets/css/main.css`.
+
+- `assets/css/input.css` — Tailwind directives + custom CSS (source, not served)
+- `assets/css/main.css` — compiled, minified output (served + committed)
+- `tailwind.config.js` — theme + content globs; scans `*.html`, `_layouts`,
+  `_includes`, `blog`, `_posts`. New files outside these globs need a glob added.
 
 ## Blog Post Management
 When adding a new blog post:

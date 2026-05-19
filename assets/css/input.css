@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+.prose-pico a {
+  color: #0071e3;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: #bcdcff;
+}
+
+.prose-pico a:hover {
+  text-decoration-color: #0071e3;
+}

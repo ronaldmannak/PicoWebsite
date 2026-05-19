@@ -8,35 +8,11 @@
   <link rel="apple-touch-icon" href="/icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.tailwindcss.com">
 
   {% seo %}
 
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ink: '#1d1d1f',
-            subtle: '#6e6e73',
-            hairline: '#d2d2d7',
-            mist: '#f5f5f7',
-          },
-          fontFamily: {
-            sans: ['-apple-system','BlinkMacSystemFont','Inter','Segoe UI','Roboto','Helvetica','Arial','sans-serif'],
-          },
-        },
-      },
-    };
-  </script>
+  <link rel="stylesheet" href="/assets/css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-    [id] { scroll-margin-top: 5.5rem; }
-    .prose-pico a { color:#0071e3; text-decoration:underline; text-underline-offset:2px; text-decoration-color:#bcdcff; }
-    .prose-pico a:hover { text-decoration-color:#0071e3; }
-  </style>
 </head>
 <body class="bg-white font-sans text-ink antialiased">
 

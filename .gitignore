@@ -18,6 +18,9 @@ Gemfile.lock
 .bundle/
 vendor/
 
+# Node / Tailwind tooling
+node_modules/
+
 # Editor files
 .vscode/
 .idea/
