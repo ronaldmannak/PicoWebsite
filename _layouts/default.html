@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | Pico{% else %}Pico — Local AI apps for Apple Silicon{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Pico builds privacy-first AI apps for Apple Silicon: a local LLM server, on-device image generation, and a native assistant. Fast, offline, and entirely on your Mac.{% endif %}">
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} | Pico{% else %}Pico — Local AI apps for Apple Silicon{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Privacy-first AI apps for Apple Silicon. Fast, offline, and entirely on your Mac.{% endif %}">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="/icon.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#ffffff">
   <link rel="icon" type="image/png" href="/icon.png">
   <link rel="apple-touch-icon" href="/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+
+  {% seo %}
+
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script>
     tailwind.config = {

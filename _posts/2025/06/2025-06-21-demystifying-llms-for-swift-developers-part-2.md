@@ -3,6 +3,7 @@ layout: post
 title: "Demystifying LLMs for Swift Developers: Part 2 — Introducing Llama2.swift"
 date: 2025-06-21
 excerpt: "A Swift developer's guide to understanding LLMs through their three core components: the inference engine, tokenizer, and model weights. Perfect for those exploring Apple's MLX framework."
+image: /assets/images/blog/demystifying-llms-for-swift-developers-part-2/llama.png
 ---
 
 ## Introduction

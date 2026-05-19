@@ -13,6 +13,11 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# Bundler
+Gemfile.lock
+.bundle/
+vendor/
+
 # Editor files
 .vscode/
 .idea/
