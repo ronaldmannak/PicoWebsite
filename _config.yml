@@ -1,4 +1,5 @@
-title: Pico AI Server
+title: Pico
+description: Privacy-first AI apps for Apple Silicon — local LLMs, on-device image generation, and a native assistant.
 baseurl: ""
 url: ""
 permalink: /blog/:title/

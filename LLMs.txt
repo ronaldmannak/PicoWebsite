@@ -1,46 +1,42 @@
-# Pico AI Homelab - LLMs.txt
-# https://picoai.com
-# Version: 1.1.0
+# Pico - LLMs.txt
+# https://picogpt.app
+# Version: 2.0.0
 
 # ABOUT
-Pico AI Homelab is a local LAN AI server for home and office use, designed for professionals and small teams who value privacy and performance. The server runs on Apple Silicon devices and is powered by MLX technology.
+Pico builds privacy-first AI apps for Apple Silicon. Every Pico app runs state-of-the-art
+AI models locally on the user's Mac — fast, offline, and entirely on-device. Nothing is
+sent to the cloud. The apps are powered by Apple's MLX framework and distributed through
+the Mac App Store.
 
-# HOMEPAGE HIGHLIGHTS
-- Download for Free on the Mac App Store
-- 300+ state-of-the-art AI models: DeepSeek R1, Meta Llama, Gemma, Qwen, and more
-- Optimized for Apple Silicon (M1/M2/M3), powered by MLX
-- Total privacy: Everything runs locally, nothing leaves your device
-- One-click setup with advanced customization
-- Seamless integration with chat apps (Open WebUI, Ollamac, MindMac)
-- Bonjour service discovery for Swift apps (no API keys, no setup)
-- Requirements: Apple Silicon (M1 or later), 16GB RAM (32GB recommended)
-- Community: Join our Discord for support and updates
+# PRODUCTS
 
-# MODELS
-- DeepSeek R1 Distilled
-- Llama
-- Gemma
-- 300+ additional state-of-the-art AI models
+## Pico AI Server
+A complete local LLM server for Apple Silicon. 100% OpenAI- and Ollama-API compatible,
+powered by Apple's MLX engine. Offers 300+ ready-to-use models (DeepSeek, Llama, Gemma,
+Qwen, and more) that can be served to any compatible app on the Mac or local network.
+- Platform: macOS (Apple Silicon, M1 or later)
+- Requirements: 16GB RAM (32GB recommended for larger models)
+- App Store: https://apps.apple.com/us/app/pico-local-ai-chat-server/id6738607769
+- Capabilities: local LLM inference, Chat API, Embeddings API, Models API, RAG,
+  Bonjour service discovery, OpenAI/Ollama API compatibility
 
-# CAPABILITIES
-- Local LLM inference
-- RAG (Retrieval-Augmented Generation)
-- Chat API
-- Embeddings API
-- Models API
-- Bonjour service discovery
+## Pico Flux
+On-device AI image generation for the Mac. Creates images with state-of-the-art generative
+models running entirely on Apple Silicon — no cloud, no credits, no queues.
+- Platform: macOS (Apple Silicon, M1 or later)
+- App Store: https://apps.apple.com/us/app/pico-flux-ai-image/id6725615977
 
-# TECHNICAL REQUIREMENTS
-- Apple Silicon device (M1/M2/M3)
-- macOS
-- Local network connection
-- 16GB of memory (32GB recommended)
+## Pico Studio
+A native AI assistant and chat front-end for local models. A new version is in development;
+the current version is available on the App Store.
+- Status: Coming soon (new version in development)
+- App Store (current version): https://apps.apple.com/us/app/pico-llm-frontend-ai-assistant/id1668205047
 
-# CONTEXT WINDOW
-Varies by model. Please refer to individual model documentation.
-
-# TRAINING DATA
-Pre-trained models, no additional training required.
+# KEY BENEFITS
+- Privacy: all data and models run locally; nothing leaves the device
+- Speed: native apps optimized for Apple Silicon and Apple's MLX framework
+- Ownership: no accounts, no subscriptions, no metered usage
+- Simplicity: one-click install from the Mac App Store
 
 # INTENDED USE
 - Professional and enterprise use
@@ -49,35 +45,9 @@ Pre-trained models, no additional training required.
 - Local AI development
 - Homelab setups
 
-# KEY BENEFITS
-- Privacy: All data and models run locally—nothing leaves your device
-- Speed: Optimized for Apple Silicon, powered by MLX
-- Simplicity: One-click setup, advanced options for power users
-- Integration: Works with top chat apps and Swift via Bonjour
-
-# LATEST BLOG POST
-# TODO: When adding a new blog post, update the section below
-Title: Demystifying LLMs for Swift Developers: Part 1
-Date: 2025-06-21
-URL: /blog/demystifying-llms-for-swift-developers-part-1/
-Summary: 
-  This article introduces large language models (LLMs) to Swift developers, focusing on simplifying concepts often made complex by data science jargon. It breaks down the three essential files required for running an LLM and explains their roles in an accessible way.
-
-Main Points:
-- Many LLM resources are tailored for data science or Python, not Swift developers.
-- The article avoids deep dives into transformer internals and instead explains what happens before and after.
-- If you're exploring Apple's MLX or are curious about LLMs, this post is for you.
-- The three essential files of an LLM:
-  1. The Inference Engine: Runs the model (e.g., Karpathy's llama2.c)
-  2. The Tokenizer: Defines how text is split into tokens (e.g., tokenizer.json)
-  3. The Model Weights: Contains the trained parameters (embeddings and weights)
-- These files are static and read-only; the LLM does not learn new information after training.
-- Understanding these files is key to grasping how LLMs work during inference.
-
 # ETHICAL CONSIDERATIONS
 - Promotes data privacy by keeping all processing local
 - Reduces cloud dependency
-- Environmentally conscious through efficient MLX optimization
 - No data collection or sharing
 
 # LIMITATIONS
@@ -85,25 +55,17 @@ Main Points:
 - Performance varies by device capabilities
 - Model availability subject to licensing terms
 
-# BIAS AND RISKS
-- Model-specific biases may apply
-- Users should evaluate individual models for their specific use cases
-- Local deployment reduces exposure to external manipulation
-
 # DEVELOPER RESOURCES
 Documentation: https://pico-1.gitbook.io/homelab
 Discord: https://discord.gg/Nrf5y8Uaxw
-
-# LICENSE
-Please refer to individual model licenses for usage terms.
+GitHub: https://github.com/picomlx
+X: https://x.com/picogpt
 
 # CONTACT
-Twitter: @PicoAIHomelab
-Support: Available through Discord community
-
-# CITATIONS
-For research and academic citations, please contact the Pico AI team.
+Support: Available through the Discord community
+Privacy: privacy@picoai.app
+Legal: legal@picoai.app
 
 # UPDATES
-This LLMs.txt is maintained alongside the Pico AI Homelab documentation.
-Last updated: 2025-02-15
+This LLMs.txt is maintained alongside the Pico website.
+Last updated: 2026-05-19
